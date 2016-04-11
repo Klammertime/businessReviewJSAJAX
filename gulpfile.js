@@ -17,6 +17,7 @@ gulp.task("build", function() {
             "index.html",
             "server.js",
             "js/*",
+            "data/*",
             "img/*",
             "css/*",
             "bootstrap/**/*"

@@ -9,7 +9,7 @@
     var request = new XMLHttpRequest();
     // the requested filename is given by the input element id
     // the json files are kept in a separate data folder
-    var filename = '../data/' + event.target.id + '.json';
+    var filename = './data/' + event.target.id + '.json';
     // We invoke the methods (open and send) on the XMLHttpRequest object denoted by the variable request.
     // Specify a GET request for the JSON file
     request.open('GET', filename);
@@ -33,7 +33,7 @@
     for (var prop in jsonObj) {
       if(prop === "Image") {
         info += '<div class="backdrop-block backdrop-image-min-size">' +
-              '<div class="pickgradient"><img class="img-responsive" src="../img/' +
+              '<div class="pickgradient"><img class="img-responsive" src="img/' +
               jsonObj[prop] + '"></div>';
       } else if(prop === "Name"){
         info+= '<div class="overlay-font overlay-font-backdrop"><h4>' + jsonObj[prop] + '</h4></div></div>';
