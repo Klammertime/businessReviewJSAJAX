@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silicon Valley Food Reviews</title>
+    <!-- Latest compiled and minified Boootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="all">
+    <!-- Fonts from Typekit -->
+    <script src="https://use.typekit.net/mmc7znj.js"></script>
+    <script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-leaf"></span>
+                    <span class="logo-font">Silicon Valley Food Reviews</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered" id="business">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Distance</th>
+                            <th>Price</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">California Foods</th>
+                            <td>8 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <input class="btn btn-default" id="californiafoods" type="button" value="More Info">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Everything Pizza</th>
+                            <td>6 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <input class="btn btn-default" id="everythingpizza" type="button" value="More Info">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Red Strawberry</th>
+                            <td>2 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <input class="btn btn-default" id="redstrawberry" type="button" value="More Info">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Salad Place</th>
+                            <td>2 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td><span class="glyphicon glyphicon-star" aria-hidden="true"></span></td>
+                            <td>
+                                <input class="btn btn-default" id="saladplace" type="button" value="More Info">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Yumm</th>
+                            <td>5 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td><span class="glyphicon glyphicon-star" aria-hidden="true"></span></td>
+                            <td>
+                                <input class="btn btn-default" id="yumm" type="button" value="More Info">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Zoe</th>
+                            <td>2 miles</td>
+                            <td>
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </td>
+                            <td>
+                                <input class="btn btn-default" id="zoe" type="button" value="More Info">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div id="description">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script defer src="../js/app.js"></script>
+</body>
+
+</html>

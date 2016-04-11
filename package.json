@@ -1,7 +1,7 @@
 {
   "name": "businessReviewJSAJAX",
   "version": "1.0.0",
-  "description": "Using Google Maps API with Knockout",
+  "description": "Business Review App - Ajax & Vanilla JS Implementation",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Klammertime/map"
+    "url": "git+https://github.com/Klammertime/businessReviewJSAJAX"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Klammertime/map/issues"
+    "url": "https://github.com/Klammertime/businessReviewJSAJAX/issues"
   },
-  "homepage": "https://github.com/Klammertime/map#readme"
+  "homepage": "https://github.com/Klammertime/businessReviewJSAJAX#readme"
 }
