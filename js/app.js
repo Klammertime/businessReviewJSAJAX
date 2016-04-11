@@ -9,7 +9,7 @@
     var request = new XMLHttpRequest();
     // the requested filename is given by the input element id
     // the json files are kept in a separate data folder
-    var filename = '../data/' + event.target.id + '.json';
+    var filename = './data/' + event.target.id + '.json';
     // We invoke the methods (open and send) on the XMLHttpRequest object denoted by the variable request.
     // Specify a GET request for the JSON file
     request.open('GET', filename);
