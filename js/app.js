@@ -33,7 +33,7 @@
     for (var prop in jsonObj) {
       if(prop === "Image") {
         info += '<div class="backdrop-block backdrop-image-min-size">' +
-              '<div class="pickgradient"><img class="img-responsive" src="../images/' +
+              '<div class="pickgradient"><img class="img-responsive" src="../img/' +
               jsonObj[prop] + '"></div>';
       } else if(prop === "Name"){
         info+= '<div class="overlay-font overlay-font-backdrop"><h4>' + jsonObj[prop] + '</h4></div></div>';
